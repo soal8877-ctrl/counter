@@ -1,0 +1,29 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --go --lan",
+    "start:tunnel": "expo start --go --tunnel",
+    "start:tunnel:ngrok": "expo start --go --tunnel ngrok",
+    "start:usb": "expo start --go --localhost",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "babel-preset-expo": "~58.0.0",
+    "expo": "~58.0.23",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@expo/ngrok": "^4.1.3",
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
